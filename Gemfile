@@ -3,6 +3,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
+
+gem 'bootstrap-sass', '~>3.3.4.1'
+gem 'autoprefixer-rails', '~>5.2.0'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
@@ -31,7 +34,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
     
     gem 'byebug'
     
-    gem 'web-console', '~> 2.0'
+    #gem 'web-console', '~> 2.0'
     
     gem 'spring'
      
